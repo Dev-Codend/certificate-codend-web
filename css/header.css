@@ -1,0 +1,21 @@
+.certificateContainer-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.certificate-brand {
+    flex-shrink: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.certificate-brand span { color: var(--color-amarillo); }
+
+.certificateContainer-logo .certificate-line {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background: linear-gradient(to right, var(--color-petroleo), var(--color-turquesa), var(--color-celeste), var(--color-gris), var(--color-amarillo));
+}

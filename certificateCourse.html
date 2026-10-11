@@ -1,77 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Certificado</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="fonts/fuente.css">
+    <title>Codend | Certificado de JavaScript</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/fuente.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    
-<div class="certificateContainer">
-
-    <div class="certificateContainer-body">
-        <div class="certificateContainer-logo">
-            <img src="img/iconos-03.svg" alt="">
-            <div></div>
-        </div>
-        <div class="certificateContainer-center">
-            <p>CERTIFICADO</p>
-            <span>Otorgado a:</span>
-            <p>María Gabriela Sandoval Urquizo</p>
-            <span>Por haber culminado con éxito el Curso de:</span>
-            <p>Excel Intermedio</p>
-        </div>
-        <div class="certificateContainer-end">
-
-            <div>
-                   <div class="certificateContainer-endTime">
-                       <div class="certificateContainer-endTimeImg">
-                           <p>10.5</p>
-                           <p>Horas</p>
-                           <img src="img/iconos-04.svg" style="top: 4px;right: -6px;">
-                       </div>
-                       <div class="certificateContainer-endTimeImg">
-                            <p>6</p>
-                            <p>Unidades</p>
-                            <img src="img/iconos-05.svg" style="top: 4px;right: 2px;">
-                       </div>
-                       <div class="certificateContainer-endTimeImg">
-                            <p>36</p>
-                            <p>Materiales</p>
-                            <img src="img/iconos-06.svg" style="top: 3px;right: -2px;">
-                       </div>
-                   </div>
-                   <div class="certificateContainer-unity">
-                       <p>UNIDADES</p>
-                       <ul style="margin: 0px;padding-left: 13px;line-height: 12px;">
-                           <li>Análisis avanzada de datos</li>
-                           <li>Formularios</li>
-                           <li>Macros</li>
-                           <li>Programación con VBA</li>
-                           <li>Funciones personalizadas</li>
-                           <li>Aplicaciones con VBA</li> 
-                       </ul>
-                   </div>
-                 
+    <div class="certificateContainer">
+        <div class="certificateContainer-body">
+            <div class="certificateContainer-logo">
+                <p class="certificate-brand">Codend<span>.</span></p>
+                <div class="certificate-line" aria-hidden="true"></div>
             </div>
-            <div class="certificateContainer-name">
-                <img src="img/firma.svg" alt="">
-                <p>Matías Escabini</p>
-                <p>Vicerrector académico</p>
+
+            <div class="certificateContainer-center">
+                <h1 class="certificate-title">CERTIFICADO</h1>
+                <span class="certificate-label">Otorgado a:</span>
+                <p class="certificate-student">María Gabriela Sandoval Urquizo</p>
+                <span class="certificate-label">Por haber completado con éxito el Curso de:</span>
+                <p class="certificate-course">JavaScript</p>
             </div>
-            <p class="child">Lima, 22 de Octubre de 2019</p>
 
+            <div class="certificateContainer-end">
+                <div>
+                    <div class="certificateContainer-endTime">
+                        <div class="certificateContainer-endTimeImg">
+                            <p class="certificate-stat-value">40</p>
+                            <p class="certificate-stat-label">Horas</p>
+                        </div>
+                        <div class="certificateContainer-endTimeImg">
+                            <p class="certificate-stat-value">6</p>
+                            <p class="certificate-stat-label">Unidades</p>
+                        </div>
+                    </div>
+                    <div class="certificateContainer-unity">
+                        <h2 class="certificate-section-title">UNIDADES</h2>
+                        <ul class="certificate-modules">
+                            <li>Fundamentos y sintaxis de JavaScript</li>
+                            <li>Variables, tipos de datos y operadores</li>
+                            <li>Funciones, arrays y objetos</li>
+                            <li>Manipulación del DOM y eventos</li>
+                            <li>Asincronía, promesas y consumo de APIs</li>
+                            <li>Proyecto final con JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="certificateContainer-name">
+                    <img class="certificate-signature" src="img/firma.svg" alt="Firma de Matías Escabini">
+                    <p class="certificate-signer">Matías Escabini</p>
+                    <p class="certificate-role">Director académico · Codend</p>
+                </div>
+                <p class="certificate-date">Lima, <time datetime="2026-10-11">11 de octubre de 2026</time></p>
+            </div>
         </div>
-
     </div>
-    <div>
-
-    </div>
-
-</div>
 </body>
 </html>

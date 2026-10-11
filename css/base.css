@@ -1,0 +1,38 @@
+:root {
+    --color-petroleo: #045773;
+    --color-turquesa: #58b0bf;
+    --color-celeste: #9bd8dc;
+    --color-gris: #e1e9ed;
+    --color-amarillo: #f4bd00;
+    --color-paper: #ffffff;
+    --color-background: var(--color-gris);
+    --space-section: 32px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    color: var(--color-petroleo);
+    background: var(--color-background);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+p { margin: 0; }
+
+.certificateContainer {
+    width: 100%;
+    padding: 40px 24px;
+}
+
+.certificateContainer-body {
+    max-width: 1120px;
+    min-height: 760px;
+    margin: 0 auto;
+    padding: 40px 48px;
+    background: var(--color-paper);
+    border-top: 8px solid var(--color-turquesa);
+    border-bottom: 8px solid var(--color-petroleo);
+    box-shadow: 0 16px 48px #04577312;
+}

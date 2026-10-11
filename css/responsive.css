@@ -1,0 +1,15 @@
+@media screen and (max-width: 760px) {
+    .certificateContainer { padding: 20px 12px; }
+    .certificateContainer-body { min-height: auto; padding: 28px 24px; }
+    .certificateContainer-center { padding: 36px 0; }
+    .certificateContainer-end { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; }
+    .certificate-date { grid-column: 1 / -1; text-align: center; }
+}
+
+@media screen and (max-width: 480px) {
+    .certificateContainer-body { padding: 24px 20px; }
+    .certificate-brand { font-size: 26px; }
+    .certificate-title { letter-spacing: 1px; }
+    .certificateContainer-end { grid-template-columns: minmax(0, 1fr); }
+    .certificateContainer-name { margin-top: 12px; }
+}

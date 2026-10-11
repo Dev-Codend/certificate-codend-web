@@ -1,0 +1,21 @@
+/* Guardar como PDF o imprimir: A4 horizontal, escala 100 %. */
+@page { size: A4 landscape; margin: 12mm; }
+
+@media print {
+    body { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    .certificateContainer { padding: 0; }
+    .certificateContainer-body {
+        max-width: none;
+        min-height: 180mm;
+        padding: 7mm 9mm;
+        box-shadow: none;
+        border-width: 2mm;
+    }
+    .certificateContainer-center { gap: 3mm; padding: 8mm 0; }
+    .certificate-title { font-size: 30pt; }
+    .certificate-student { font-size: 23pt; }
+    .certificate-course { font-size: 20pt; }
+    .certificateContainer-end { gap: 7mm; padding-top: 5mm; }
+    .certificate-modules { font-size: 9pt; line-height: 1.5; }
+    .certificateContainer-name, .certificate-date, .certificateContainer-endTime, .certificate-modules li { break-inside: avoid; }
+}
